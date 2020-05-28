@@ -32,4 +32,4 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         echo sha ${{ github.sha }}
-        echo ${{ SECRET_KEY }}
+        echo ${{ secrets.SECRET_KEY }}
