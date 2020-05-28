@@ -1,4 +1,7 @@
 # This is a basic workflow to help you get started with Actions
+env:
+  SERVER: production
+  key: val
 
 name: CI
 
@@ -33,3 +36,5 @@ jobs:
         echo test, and deploy your project.
         echo sha ${{ github.sha }}
         echo ${{ secrets.SECRET_KEY }}
+        echo ${{ SERVER }}
+        echo ${{ key }}
