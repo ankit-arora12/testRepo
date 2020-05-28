@@ -36,5 +36,5 @@ jobs:
         echo test, and deploy your project.
         echo sha ${{ github.sha }}
         echo ${{ secrets.SECRET_KEY }}
-        echo ${{ SERVER }}
-        echo ${{ key }}
+        echo $SERVER
+        echo $key
